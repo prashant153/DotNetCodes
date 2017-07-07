@@ -1,11 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.master" EnableEventValidation="false" AutoEventWireup="true" ValidateRequest="false" CodeFile="Manage_User.aspx.cs" Inherits="Paid_User" %>
 
-<%---- =============================================
--- Author:		<Manish Kumar,Prashant Kumar>
--- Create date: <5/9/2017>
--- Description:	<Here Admin can update the status of user as ACTIVE and INACTIVE.For that purpose OnRowUpdating(after editing the required field,these can be updated), OnRowEditing( for edit status,pricing plan, Data count and Export data), and OnRowCanceling(press cancel button if don't want to update) control events have been used>
-//--                With OnPageIndexing control events we can move to all different records of user one by one. 
--- =============================================--%>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
         .modal-content {
